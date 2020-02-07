@@ -105,6 +105,14 @@ namespace Yorick.Command_Handler
             AddCommand(new VoiceCommand("bitch", "bitch", CommandType.Meme, AudioPath + "bitch.mp3"));
             AddCommand(new VoiceCommand("sonofa", "grave", CommandType.Meme, AudioPath + "sonofa.mp3"));
             AddCommand(new VoiceCommand("baron", "grave", CommandType.LeagueOfLegends, AudioPath + "grave1.mp3"));
+            AddCommand(new VoiceCommand("ezDude", "ezDude", CommandType.LeagueOfLegends, AudioPath + "ez dude.mp3"));
+            AddCommand(new VoiceCommand("consequence", "consequence", CommandType.Meme, AudioPath + "Frick.mp3"));
+            AddCommand(new VoiceCommand("sanic", "sanic", CommandType.Meme, AudioPath + "sanic.mp3"));
+            AddCommand(new VoiceCommand("triple", "triple", CommandType.CallOfDuty, AudioPath + "triple.mp3"));
+            AddCommand(new VoiceCommand("oof", "oof", CommandType.Meme, AudioPath + "oof.mp3"));
+            AddCommand(new VoiceCommand("Leeroy", "Leeroy", CommandType.Meme, AudioPath + "Leeroy-Jenkin.mp3"));
+
+
 
             AddCommand(new VoiceCommand("ross", "paint", CommandType.Bob_Ross, AudioPath + "ross.mp3"));
             AddCommand(new VoiceCommand("devil", "devil out of it", CommandType.Bob_Ross, AudioPath + "devil.mp3"));
@@ -140,7 +148,7 @@ namespace Yorick.Command_Handler
 
             AddCommand(new LeaveCommand("gtfo", "make bot leave voice chat", CommandType.Bot_Commands, "leaving chat..."));
             AddCommand(new TextCommand("git", "return git page", CommandType.Bot_Commands,
-           "https://github.com/Haardy/Discord-Bot/tree/newCommandHandler"));
+           "https://github.com/Haardy/Discord-Bot-2.0"));
             AddCommand(new HelpCommand("help", "print every commands", CommandType.Bot_Commands));
 
         }
