@@ -111,7 +111,7 @@ namespace Yorick.Command_Handler
             AddCommand(new VoiceCommand("triple", "triple", CommandType.CallOfDuty, AudioPath + "triple.mp3"));
             AddCommand(new VoiceCommand("oof", "oof", CommandType.Meme, AudioPath + "oof.mp3"));
             AddCommand(new VoiceCommand("leeroy", "leeroy", CommandType.Meme, AudioPath + "Leeroy-Jenkin.mp3"));
-
+            AddCommand(new VoiceCommand("hisname", "hisname", CommandType.Meme, AudioPath + "hisname.mp3"));
 
 
             AddCommand(new VoiceCommand("ross", "paint", CommandType.Bob_Ross, AudioPath + "ross.mp3"));
