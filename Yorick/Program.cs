@@ -28,10 +28,10 @@ namespace Yorick
                 .AddSingleton(_client)
                 .BuildServiceProvider();
 
-            string token = "NjYxMDUwMjcxNTk3NzIzNjU5.XhKscw.CGoFI-YfBZoDgG48MjXPDFCSpyM";
+            string token = "";
 
-            //using (StreamReader sr = new StreamReader("botToken.token"))
-            //    token = sr.ReadLine();
+            using (StreamReader sr = new StreamReader("botToken.botToken"))
+                token = sr.ReadLine();
 
             _client.Log += _client_Log;
 
