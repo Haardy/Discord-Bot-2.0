@@ -105,12 +105,12 @@ namespace Yorick.Command_Handler
             AddCommand(new VoiceCommand("bitch", "bitch", CommandType.Meme, AudioPath + "bitch.mp3"));
             AddCommand(new VoiceCommand("sonofa", "grave", CommandType.Meme, AudioPath + "sonofa.mp3"));
             AddCommand(new VoiceCommand("baron", "grave", CommandType.LeagueOfLegends, AudioPath + "grave1.mp3"));
-            AddCommand(new VoiceCommand("ezDude", "ezDude", CommandType.LeagueOfLegends, AudioPath + "ez dude.mp3"));
+            AddCommand(new VoiceCommand("ezdude", "ezdude", CommandType.LeagueOfLegends, AudioPath + "ez dude.mp3"));
             AddCommand(new VoiceCommand("consequence", "consequence", CommandType.Meme, AudioPath + "Frick.mp3"));
             AddCommand(new VoiceCommand("sanic", "sanic", CommandType.Meme, AudioPath + "sanic.mp3"));
             AddCommand(new VoiceCommand("triple", "triple", CommandType.CallOfDuty, AudioPath + "triple.mp3"));
             AddCommand(new VoiceCommand("oof", "oof", CommandType.Meme, AudioPath + "oof.mp3"));
-            AddCommand(new VoiceCommand("Leeroy", "Leeroy", CommandType.Meme, AudioPath + "Leeroy-Jenkin.mp3"));
+            AddCommand(new VoiceCommand("leeroy", "leeroy", CommandType.Meme, AudioPath + "Leeroy-Jenkin.mp3"));
 
 
 
