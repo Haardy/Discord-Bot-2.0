@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Oorix\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Oorix\\.nuget\\packages"
+    ]
+  }
+}
