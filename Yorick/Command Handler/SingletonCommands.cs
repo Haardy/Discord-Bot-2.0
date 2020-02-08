@@ -73,7 +73,7 @@ namespace Yorick.Command_Handler
 
         private void LoadCommands()
         {
-            //HARD GAY
+            
             AddCommand(new VoiceCommand("grave", "Whats one more grave", CommandType.LeagueOfLegends,AudioPath+"grave.mp3"));
             AddCommand(new VoiceCommand("ravage", "orianna q", CommandType.LeagueOfLegends, AudioPath + "ravage.mp3"));
             AddCommand(new VoiceCommand("time", "singed quote", CommandType.LeagueOfLegends, AudioPath + "time.mp3"));
