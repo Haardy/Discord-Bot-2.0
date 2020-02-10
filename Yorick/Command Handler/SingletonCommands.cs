@@ -115,6 +115,8 @@ namespace Yorick.Command_Handler
             AddCommand(new VoiceCommand("antoine", "antoine", CommandType.Kys, AudioPath + "antoine.mp3"));
             AddCommand(new VoiceCommand("antoinehype", "antoinehype", CommandType.Kys, AudioPath + "antoinehype.mp3"));
             AddCommand(new VoiceCommand("antoinerage", "antoinerage", CommandType.Kys, AudioPath + "antoinerage.mp3"));
+            AddCommand(new VoiceCommand("antoineboi", "antoineboi", CommandType.Kys, AudioPath + "antoineboi.mp3"));
+            AddCommand(new VoiceCommand("spotted", "spotted", CommandType.CallOfDuty, AudioPath + "spotted.mp3"));
 
 
 
