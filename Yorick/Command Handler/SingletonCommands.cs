@@ -73,7 +73,7 @@ namespace Yorick.Command_Handler
 
         private void LoadCommands()
         {
-            
+            //TODO Retirer toutes ces espaces la.
             AddCommand(new VoiceCommand("grave", "Whats one more grave", CommandType.LeagueOfLegends,AudioPath+"grave.mp3"));
             AddCommand(new VoiceCommand("ravage", "orianna q", CommandType.LeagueOfLegends, AudioPath + "ravage.mp3"));
             AddCommand(new VoiceCommand("time", "singed quote", CommandType.LeagueOfLegends, AudioPath + "time.mp3"));
@@ -136,6 +136,8 @@ namespace Yorick.Command_Handler
 
             AddCommand(new VoiceCommand("inter", "intervention", CommandType.CallOfDuty, AudioPath + "Intervention.mp3"));
             AddCommand(new VoiceCommand("nuke", "nuke", CommandType.CallOfDuty, AudioPath + "nuke.mp3"));
+            AddCommand(new VoiceCommand("callofduty", "callofduty", CommandType.CallOfDuty, AudioPath + "callofduty.mp3"));
+            AddCommand(new VoiceCommand("viens", "viens", CommandType.Youtubers, AudioPath + "viens.mp3"));
 
 
 
