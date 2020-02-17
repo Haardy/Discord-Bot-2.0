@@ -152,6 +152,8 @@ namespace Yorick.Command_Handler
 
             AddCommand(new VoiceCommand("noice", "noice", CommandType.Meme, AudioPath + "noice.mp3"));
 
+            AddCommand(new VoiceCommand("lazer", "Fucking Lazer sight", CommandType.Misc, AudioPath + "lazer_sight.mp3"));
+
 
             AddCommand(new VoiceCommand("nigger", "nigger", CommandType.LeagueOfLegends, AudioPath + "nigger.mp3"));
 

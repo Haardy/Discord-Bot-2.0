@@ -21,7 +21,8 @@ namespace Yorick.Command_Handler.Abstract_classes
             Kys,
             Bot_Commands,
             Meme,
-            Bob_Ross
+            Bob_Ross,
+            Misc
         }
         public string CommandName { get; }
         public string Summary { get; }
