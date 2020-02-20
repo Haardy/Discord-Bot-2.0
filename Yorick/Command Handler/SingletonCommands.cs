@@ -138,6 +138,7 @@ namespace Yorick.Command_Handler
             AddCommand(new VoiceCommand("nuke", "nuke", CommandType.CallOfDuty, AudioPath + "nuke.mp3"));
             AddCommand(new VoiceCommand("callofduty", "callofduty", CommandType.CallOfDuty, AudioPath + "callofduty.mp3"));
             AddCommand(new VoiceCommand("viens", "viens", CommandType.Youtubers, AudioPath + "viens.mp3"));
+            AddCommand(new VoiceCommand("associate", "associate with n*****", CommandType.Meme, AudioPath + "associate.mp3"));
 
 
 
